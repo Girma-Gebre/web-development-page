@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Web development page</title>
+</head>
+
+<body>
+    <main>
+        <!-- navigation section  -->
+        <header>
+            <!-- icon  -->
+            <span id="web-icon-container">
+                <p>Basic front end tools</p><i title="HTML"
+                    style="color: #dd4b39; padding-right: 6px; padding-left: 6px;" class="fab fa-html5"></i><i
+                    title="CSS" style="color: #2403e2; padding-right: 6px;" class="fa-brands fa-css3-alt"></i><i
+                    title="JavaScript" style="color: yellow; padding-right: 6px;" class="fab fa-js"></i>
+            </span>
+            <!-- navigation link  -->
+            <nav>
+                <a href="#topic">Topic</a>
+                <a href="#about-web-development-tools">Tools</a>
+                <a href="#visualize-about-tools">About tools</a></li>
+                <a href="#price-of-tools">Price</a>
+                <a href="#contactHead">Contact</a>
+            </nav>
+        </header>
+
+        <!-- input section  -->
+        <section id="inputSection">
+            <!-- Brightness mode section  -->
+            <button id="darkness">Brightness mode</button>
+            <h1 id="topic" class="section-headers">Learn Frontend Web Develoment wherever your are!</h1>
+            <form>
+                <input id="email" placeholder="Enter your email adress" type="email" name="email" required>
+                <input id="submit" type="submit" value="Register">
+            </form>
+        </section>
+        <!-- web tools section  -->
+        <section>
+            <div id="ToolsContainer">
+                <h1 id="about-web-development-tools" class="section-headers"> Basic Frontend Web Development Tools
+                </h1>
+                <div id="tools">
+                    <div class="tool" id="animation-first">
+                        <h3>HTML </h3>
+                        <p>HyperText Markup Language (HTML) is a markup language used to create and structure web pages.
+                            It's the foundation for building websites and web applications. </p>
+                    </div>
+                    <div class="tool" id="animation-second">
+                        <h3>CSS </h3>
+                        <p>Cascading Style Sheets is a style sheet language used for specifying the presentation and
+                            styling of a document written in a markup language such as HTML or XML. CSS is a cornerstone
+                            technology of the World Wide Web, alongside HTML.</p>
+                    </div>
+                    <div class="tool" id="animation-third">
+                        <h3>Javascript</h3>
+                        <p>JavaScript is a programming language that allows developers to create interactive web pages.
+                            It's used to make web pages more dynamic by allowing them to respond to user interactions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sample visualize section  -->
+        <section>
+            <h1 id="visualize-about-tools" class="section-headers">Visualize about the tools</h1>
+            <div>
+                <video title="Click here to see the video" controls>
+                    <source src="./HTML, CSS, JavaScript Explained [in 4 minutes for beginners].mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+        <!-- price section  -->
+        <section id="priceContainer">
+            <h1 id="price-of-tools" class="section-headers">Price of Tools</h1>
+            <div id="price">
+                <div class="toolPrice">
+                    <h1>HTML</h1>
+                    <p class="priceDetail">Learning HTML is one of the easiest and fastest ways to start coding. So,
+                        learn here by selecting it.</p>
+                    <h3 class="dollar">$27.99</h3>
+                    <h3 class="select">Select</h3>
+                </div>
+                <div class="toolPrice">
+                    <h1>CSS</h1>
+                    <p class="priceDetail">CSS is a fundamental skill for web development, and learning it does not have
+                        to be expensive.</p>
+                    <h3 class="dollar">$139.99</h3>
+                    <h3 class="select">Select</h3>
+                </div>
+                <div class="toolPrice">
+                    <h1>JS</h1>
+                    <p class="priceDetail">JavaScript is one of the most popular and in-demand programming languages,
+                        used for web development, mobile apps (React Native), servers (Node.js), and more. Good news,
+                        you can learn here at a lower cost!</p>
+                    <h4 class="dollar">$1,250.00</h4>
+                    <h3 class="select">Select</h3>
+                </div>
+            </div>
+        </section>
+        <!-- footer section  -->
+        <footer>
+            <h3 id="contactHead">Further Contact:</h3>
+            <div id="contactList">
+                <a title="telegram" id="contactIcon" href="https://t.me/girmagebrey" target="_blank">
+                    <i class="fab fa-telegram" style="color: hsl(229, 96%, 47%);"></i>
+                    <p>Telegram</p>
+                </a>
+                <a title="email" target="_blank" id="contactIcon" href="mailto:girmagebre555@gmail.com"><i
+                        class="far fa-envelope" style="color: #dd4b39;"></i>
+                    <p>Email: girmagebre555@gmail.com</p>
+                </a>
+                <a title="linkedin" id="contactIcon" href="https://www.linkedin.com/in/girma-gebre-632b48271/"
+                    target="_blank">
+                    <i class="fab fa-linkedin" style="color: #0A66C2;"></i>
+                    <p>Linkedin</p>
+                </a>
+                <a title="GithHub" id="contactIcon" href="https://github.com/Girma-Gebre" target="_blank">
+                    <i class="fab fa-github" style="color: #0A66C2;"></i>
+                    <p>GitHub</p>
+                </a>
+                <a title="Phone: +251916606305" id="contactIcon" href="">
+                    <i class="fa-solid fa-phone" style="color: #0A66C2;"></i>
+                    <p>Phone</p>
+                </a>
+                <a title="Facebook" target="_blank" id="contactIcon" href="https://web.facebook.com/girma.gebre.545">
+                    <i class="fab fa-facebook" style="color: #0A66C2;"></i>
+                    <p>Facebook</p>
+                </a>
+            </div>
+        </footer>
+    </main>
+
+
+<!-- linking with external javascript file -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
