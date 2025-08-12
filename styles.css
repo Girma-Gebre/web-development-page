@@ -72,6 +72,10 @@ section {
     font-size: 90%;
     background-color: black;
     color: white;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    z-index: 1;
 }
 
 #darkness:hover {
